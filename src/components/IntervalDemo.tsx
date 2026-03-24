@@ -3,7 +3,6 @@ import { ClockDemo } from './ClockDemo';
 import { StopwatchDemo } from './StopwatchDemo';
 import { ProgressBarDemo } from './ProgressBarDemo';
 import { PollingDemo } from './PollingDemo';
-import { AnimationDemo } from './AnimationDemo';
 import { CounterRaceDemo } from './CounterRaceDemo';
 
 export const IntervalDemo = () => {
@@ -146,6 +145,7 @@ export const IntervalDemo = () => {
                 <h3 className="font-bold text-gray-800 dark:text-white mb-3">Utilisation basique :</h3>
                 <pre className="p-4 bg-gray-900 text-gray-100 rounded-lg overflow-x-auto text-sm">
 {`import { useInterval } from './hooks';
+import { AnimationDemo } from '../../../33-use-previous-hook/src/components/AnimationDemo';
 
 const [count, setCount] = useState(0);
 
