@@ -27,7 +27,7 @@ export const ClockDemo = () => {
 
       <div className="space-y-6">
         {/* Digital Clock */}
-        <div className="p-12 bg-gradient-to-br from-purple-100 to-pink-100 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl text-center">
+        <div className="p-12 bg-linear-to-br from-purple-100 to-pink-100 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
             <div className="px-6 py-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
               <div className="text-6xl font-bold text-purple-600 dark:text-purple-400">
