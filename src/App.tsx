@@ -1,12 +1,7 @@
-import './App.css'
+import { IntervalDemo } from './components/IntervalDemo';
 
 function App() {
-
-  return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+  return <IntervalDemo />;
 }
 
-export default App
+export default App;
