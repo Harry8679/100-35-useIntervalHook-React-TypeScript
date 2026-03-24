@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { useInterval } from '../hooks';
 import type { Racer } from '../types';
+import { useInterval } from '../hooks/useInterval';
 
 export const CounterRaceDemo = () => {
   const [racers, setRacers] = useState<Racer[]>([
