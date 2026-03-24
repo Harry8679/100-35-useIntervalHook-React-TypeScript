@@ -56,7 +56,7 @@ export const StopwatchDemo = () => {
 
       <div className="space-y-6">
         {/* Stopwatch Display */}
-        <div className="p-12 bg-gradient-to-br from-green-100 to-blue-100 dark:from-green-900/20 dark:to-blue-900/20 rounded-xl text-center">
+        <div className="p-12 bg-linear-to-br from-green-100 to-blue-100 dark:from-green-900/20 dark:to-blue-900/20 rounded-xl text-center">
           <div className="flex items-center justify-center gap-2">
             <div className="text-7xl font-bold text-green-600 dark:text-green-400">
               {time.minutes}
