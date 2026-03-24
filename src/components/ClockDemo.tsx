@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useInterval } from '../hooks';
+import { useInterval } from '../hooks/useInterval';
 
 export const ClockDemo = () => {
   const [time, setTime] = useState(new Date());
