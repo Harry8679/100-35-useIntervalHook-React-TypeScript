@@ -55,7 +55,7 @@ export const ProgressBarDemo = () => {
               className={`absolute h-full transition-all duration-200 ${
                 progress === 100
                   ? 'bg-green-500'
-                  : 'bg-gradient-to-r from-orange-500 to-red-500'
+                  : 'bg-linear-to-r from-orange-500 to-red-500'
               }`}
               style={{ width: `${progress}%` }}
             />
