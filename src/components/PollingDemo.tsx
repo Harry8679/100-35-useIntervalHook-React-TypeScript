@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import { useInterval } from '../hooks';
-import type { DataPoint } from '../types';
+import { useInterval } from '../hooks/useInterval';
 
 export const PollingDemo = () => {
   const [data, setData] = useState<DataPoint[]>([]);
