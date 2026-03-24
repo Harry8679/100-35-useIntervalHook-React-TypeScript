@@ -83,7 +83,7 @@ export const CounterRaceDemo = () => {
 
         {/* Winner Announcement */}
         {winner && (
-          <div className="p-6 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-xl text-center animate-scale-in">
+          <div className="p-6 bg-linear-to-r from-yellow-400 to-orange-500 rounded-xl text-center animate-scale-in">
             <div className="text-5xl mb-2">🏆</div>
             <div className="text-2xl font-bold text-white mb-2">
               {winner.name} a gagné !
