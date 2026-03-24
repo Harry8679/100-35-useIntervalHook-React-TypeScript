@@ -4,6 +4,7 @@ import { StopwatchDemo } from './StopwatchDemo';
 import { ProgressBarDemo } from './ProgressBarDemo';
 import { PollingDemo } from './PollingDemo';
 import { CounterRaceDemo } from './CounterRaceDemo';
+import { AnimationDemo } from './AnimationDemo';
 
 export const IntervalDemo = () => {
   return (
