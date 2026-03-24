@@ -45,7 +45,7 @@ export const AnimationDemo = () => {
 
       <div className="space-y-6">
         {/* Animation Container */}
-        <div className="p-8 bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-700 dark:to-gray-800 rounded-xl">
+        <div className="p-8 bg-linear-to-br from-gray-100 to-gray-200 dark:from-gray-700 dark:to-gray-800 rounded-xl">
           <div className="relative h-32 bg-white dark:bg-gray-900 rounded-lg overflow-hidden">
             <div
               className={`absolute top-1/2 -translate-y-1/2 w-16 h-16 ${colors[colorIndex]} rounded-full shadow-lg transition-all duration-100`}
