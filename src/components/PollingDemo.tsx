@@ -100,7 +100,7 @@ export const PollingDemo = () => {
               data.map((point) => (
                 <div
                   key={point.id}
-                  className="flex-1 bg-gradient-to-t from-blue-500 to-purple-500 rounded-t transition-all duration-300 hover:from-blue-600 hover:to-purple-600"
+                  className="flex-1 bg-linear-to-t from-blue-500 to-purple-500 rounded-t transition-all duration-300 hover:from-blue-600 hover:to-purple-600"
                   style={{ height: `${point.value}%` }}
                   title={`Valeur: ${point.value}`}
                 />
